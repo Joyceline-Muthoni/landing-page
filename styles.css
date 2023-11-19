@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 70px;
+  background: url("images/bg-header-desktop.png") center center / cover;
+}
+.intro {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.intro h2 {
+  padding: 5px 0;
+}
+.action-button {
+  padding: 10px 25px;
+  margin: 0 10px;
+}
+.download-ios {
+  background-color: hsl(171, 66%, 44%);
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 25px;
+  box-shadow: 2px 2px 8px hsl(171, 66%, 44%), 2px 2px 2px hsl(171, 66%, 44%);
+  margin-right: 15px;
+  margin: 40px 70px;
+}
+.download-mac {
+  background-color: hsl(233, 100%, 69%);
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 25px;
+  margin: 40px 70px;
+  box-shadow: 2px 2px 8px hsl(233, 100%, 69%), 2px 2px 2px hsl(233, 100%, 69%);
+}
+
+.one {
+  text-align: center;
+  margin: auto;
+}
+.one h2 {
+  padding: 15px 0;
+}
+
+.two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 50px 0;
+}
+.two img {
+  height: 100%;
+  width: 80%;
+}
+
+.features {
+  width: 65%;
+  margin-top: 40px;
+}
+
+.three {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+.three img {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: 70px, 0;
+}
+.three-one {
+  padding: 70px 0;
+  margin: auto;
+}
+.four .functions {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 100px 0;
+}
+.four .functions div {
+  margin: 0 30px;
+}
+.four .functions div img {
+  margin: 10px 0 20px 0;
+}
+.four .support-company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  margin: 50px 30px;
+}
+.five {
+  text-align: center;
+  margin: auto;
+}
+footer {
+  background-color: #f5f6f8;
+  padding: 0 40px;
+  padding: 10px 40px;
+}
+
+footer .foot {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  margin: 0 70px;
+}
+.foot ul {
+  max-width: 450px;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  margin: 5px 25px;
+}
+a {
+  color: (171, 66% 44%);
+}
+
+footer p {
+  text-align: center;
+}
